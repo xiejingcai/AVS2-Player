@@ -1,6 +1,6 @@
 #include "davs2.h"
-#include "libswscale\swscale.h"
-#include "libavutil\pixfmt.h"
+#include "libswscale/swscale.h"
+#include "libavutil/pixfmt.h"
 #include "SDL.h"
 #include "SDL_ttf.h"
 #include <stdio.h>
@@ -46,7 +46,7 @@ int get_CPU_core_num()
 
 //--------------------------------------------------------------------
 
-#define N					128 
+#define N					64
 #define R					1
 #define WINDOW_WIDTH		1280 * R
 #define WINDOW_HEIGHT		720 * R
